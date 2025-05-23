@@ -12,10 +12,13 @@ export default function CreateMovieScreen({ navigation }) {
   };
 
   return (
-    <View style={{ padding: 20 }}>
-      <TextInput placeholder="Título" value={title} onChangeText={setTitle} style={{ borderWidth: 1, marginBottom: 10, padding: 10 }} />
-      <TextInput placeholder="Ano" value={year} onChangeText={setYear} keyboardType="numeric" style={{ borderWidth: 1, marginBottom: 10, padding: 10 }} />
+    <View>
+      <TextInput placeholder="Título" value={title} onChangeText={setTitle} />
+      <TextInput placeholder="Ano" value={year} onChangeText={setYear} keyboardType="numeric" />
       <Button title="Salvar" onPress={handleSubmit} />
+      {/* Espaço antes do botão voltar */}
+            <View style={{ marginTop: 20 }}></View>
+            <Button title="Voltar" onPress={() => navigation.goBack()} />
     </View>
   );
 }

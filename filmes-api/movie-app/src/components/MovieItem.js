@@ -1,10 +1,12 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, Button } from 'react-native';
 
-export default function MovieItem({ movie }) {
+export default function MovieItem({ movie, onEdit, onDelete, onView }) {
   return (
     <View>
-      <Text>{movie.title} ({movie.year})</Text>
+      <Text>{movie.id} - {movie.title} ({movie.year})</Text>
+      <Button title="Editar" onPress={onEdit} />
+      <Button title="Excluir" onPress={onDelete} />
     </View>
   );
 }
