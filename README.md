@@ -1,5 +1,5 @@
 
-# HAHAHAHA-FILMES 🎬
+# LIBRARY-CRUD-FILMES 🎬
 
 Aplicativo completo para gerenciar uma lista de filmes, com funcionalidades de **criar**, **visualizar**, **editar**, **deletar** e **buscar por ID**.  
 O backend é feito com **Node.js (Express)** e o frontend com **React Native** usando navegação de pilha.
