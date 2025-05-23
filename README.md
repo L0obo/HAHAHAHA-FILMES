@@ -25,8 +25,8 @@ O backend é feito com **Node.js (Express)** e o frontend com **React Native** u
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/hahahaha-filmes.git
-cd hahahaha-filmes
+git clone https://github.com/L0obo/library-crud-filmes.git
+cd library-crud-filmes
 ```
 
 ### 2. Instale as dependências do backend
