@@ -113,7 +113,7 @@ npx expo start
 
 ## ✍️ Autor
 
-Feito com 💛 por **Ícaro Iago**
+Feito com 💛 por **Ícaro Iago e Aldir Júnior**
 
 ---
 
